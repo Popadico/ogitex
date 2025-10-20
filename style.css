@@ -7,13 +7,7 @@ body {
   color: #333;
 }
 /* Stilizovani umanjeni video */
-.product-video {
-  width: 300px;         /* ista širina kao slike artikala */
-  height: auto;         /* proporcije se čuvaju */
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  display: block;
-  margin: 20px auto; 
+
 
 
 
@@ -190,6 +184,7 @@ footer {
   font-weight: bold;
   font-size: 18px;
 }
+
 
 
 
