@@ -8,13 +8,12 @@ body {
 }
 /* Stilizovani umanjeni video */
 .product-video {
-  width: 400px;         /* širina videa */
-  height: auto;         /* visina se automatski prilagođava */
+  width: 200px;         /* ista širina kao slike artikala */
+  height: auto;         /* proporcije se čuvaju */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   display: block;
-  margin: 20px auto;    /* centriran */
-}
+  margin: 20px auto; 
 
 
 
@@ -191,6 +190,7 @@ footer {
   font-weight: bold;
   font-size: 18px;
 }
+
 
 
 
