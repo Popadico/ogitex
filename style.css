@@ -6,8 +6,18 @@ body {
   background: #f3f4f6;
   color: #333;
 }
-/* Stilizovani umanjeni video */
+.video-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+.product-video {
+  width: 400px;      /* širina videa */
+  height: 300px;     /* fiksna visina da bude jednaka kao slike */
+  object-fit: cover; /* video se skalira da popuni dimenzije */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
 
 
@@ -184,6 +194,7 @@ footer {
   font-weight: bold;
   font-size: 18px;
 }
+
 
 
 
